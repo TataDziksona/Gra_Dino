@@ -187,12 +187,12 @@ def animacja():  # funkcja odpowiedzialna za
         elif klatka == 10:
             gracz.image = 'p3_walk11'
 
-    klatka += 1  # zwiększ wartość 
-    # zmiennej klatka o 1
-    klatka %= 11  # obliczamy resztę z dzielenia
-    # zmiennej klatka przez 11
-    # wynik takiej operacji będzie liczba większa bądź
-    # równa zero oraz mniejsza od 11
+        klatka += 1  # zwiększ wartość 
+        # zmiennej klatka o 1
+        klatka %= 11  # obliczamy resztę z dzielenia
+        # zmiennej klatka przez 11
+        # wynik takiej operacji będzie liczba większa bądź
+        # równa zero oraz mniejsza od 11
 
 
 pgzrun.go()  # Linia ta jest konieczna
